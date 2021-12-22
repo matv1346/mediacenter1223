@@ -102,22 +102,90 @@ header a{
     width:100px;
     margin-left:250px;
     margin-top: 20px;
+cursor: pointer;
+    
   }
+  .newsicon:hover{
+    
+    border-radius: 8px;
+    filter: invert(1);
+    transition-duration: 1s;
+    
+  }
+ 
+
   .vidicon{
     width:100px;
     margin-left:150px;
     margin-top: 20px;
+    cursor: pointer;
   }
+
+}
+.vidicon:hover{
+  
+  border-radius: 8px;
+  filter: invert(1);
+  transition-duration: 1s;
+  
+}
+
+
   .radioicon{
     width:100px;
     margin-left:150px;
     margin-top: 20px;
   }
-  .moreicon{
+
+.radioicon:hover{
+  
+  border-radius: 8px;
+  filter: invert(1);
+  transition-duration: 1s;
+  
+}
+
+
+.moreicon{
     width:100px;
     margin-left:150px;
     margin-top: 20px;
   }
+
+
+.more:hover{
+  border-radius: 8px;
+  filter: invert(1);
+  transition-duration: 1s;
+  }
+
+
+.actualpict{
+  
+  border-radius: 10px;
+  width:150px;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.actualpict:hover{
+  filter: invert(1);
+  background-color: #fff;
+  transition-duration: 1s;
+}
+.openmic{
+  width: 250px;
+  margin-left: 80px;
+  margin-top:10px;
+  border-radius: 10px;
+
+}
+.openmic:hover{
+  margin-top:-3px;
+ 
+}
+
+
+
   .shtxtmb{
     display: none;
   }
@@ -125,7 +193,7 @@ header a{
     display:none;
   }
  
-}
+
 
 
 
@@ -278,6 +346,13 @@ header a{
       .mobilei{
         margin-right:3700px;
       }
+      .actualpict{
+        border: solid #000000;
+        border-radius: 10px;
+        width:150px;
+        margin-top: 25px;
+        margin-left: 25px;
+      }
 }
 
 
@@ -293,7 +368,7 @@ header a{
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
   .header{
-      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-family: "Times", Times New Roman, serif;
       font-size: 8px;
       background-color: #ffff;
       padding: 10px;
@@ -321,7 +396,7 @@ header a{
   .xyd{
       display: inline-block;
       color: #000000;
-      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-family: "Times", Times New Roman, serif;
       font-size: 24px;
       
   }
@@ -340,7 +415,7 @@ header a{
       float: left;
       display: block;
       color: #000000;
-      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-family: "Times", Times New Roman, serif;
       font-size: 6px;
       text-align: top;
       padding-left: 10px;
@@ -413,7 +488,7 @@ header a{
     .shtxtmb{
       display: inline;
       color:#ffff;
-      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-family: "Times", Times New Roman, serif;
       margin-top:10px;
       font-size: 24px;
 
@@ -443,7 +518,7 @@ header a{
       -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
   .header{
-      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-family: "Times", Times New Roman, serif;
       font-size: 8px;
       background-color: #ffff;
       padding: 10px;
@@ -471,7 +546,7 @@ header a{
   .xyd{
       display: inline-block;
       color: #000000;
-      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-family: "Times", Times New Roman, serif;
       font-size: 24px;
       
   }
@@ -490,7 +565,7 @@ header a{
       float: left;
       display: block;
       color: #000000;
-      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-family: "Times", Times New Roman, serif;
       font-size: 5px;
       text-align: top;
       padding-left: 10px;
@@ -563,7 +638,7 @@ header a{
     .shtxtmb{
       display: inline;
       color:#ffff;
-      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-family: "Times", Times New Roman, serif;
       margin-top:10px;
       font-size: 24px;
 

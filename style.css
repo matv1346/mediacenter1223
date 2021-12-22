@@ -1,0 +1,94 @@
+.header{
+    height: 100px;
+    padding-top: 85px;
+    background: #847462 no-repeat center url("1549455082_shapka-sayta-vesna-1151132.jpg");
+    background-size: cover;
+    border-radius: 0px 0px 30px 30px;  
+}
+.headerh1{
+  font-family: "Arial", sans-serif;
+  font-size: 49px;
+  margin-top: -50px;
+  margin-left: 70px;
+}
+body {
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .News{
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+   
+  }
+
+  .mic{
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+  }
+  .micm{
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+  }
+  .foto{
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    margin-left: 520px;
+    margin-top: -405px;
+    
+  }
+  .href{
+      color:#847462;
+      text-decoration: none;
+      outline: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  hr{
+    border: none; 
+    background-color: red; 
+    color: red; 
+    height: 2px; 
+  }
+  .future{
+    
+    margin-top: 20px;
+  }
+  .tup{
+    margin-top: -10px;
+  }
+  .topnav {
+    overflow: hidden;
+    background: transparent;
+    
+    margin-top: -75px;
+    margin-right: 500px;
+    margin-left: 10px;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: top;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: -20px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #6ab6ff;
+    color: black;
+  }
+  .img{
+    border-radius: 50px 50px 0px 0px;
+  }
