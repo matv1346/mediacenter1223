@@ -1,3 +1,4 @@
+@media (max-width: 3840px){
 body{
     margin:0px;
     padding:0px;
@@ -112,13 +113,19 @@ header a{
     margin-left:150px;
     margin-top: 20px;
   }
+  .moreicon{
+    width:100px;
+    margin-left:150px;
+    margin-top: 20px;
+  }
   .shtxtmb{
     display: none;
   }
   .mobilei{
     display:none;
   }
-
+ 
+}
 
 
 
@@ -216,173 +223,360 @@ header a{
         margin-left: 5px;
         padding: 10px;
         border-radius: 30px;
+        
       }
       .shapkatxt{
         display: none;
     
       }
       .newsicon{
-        width:100px;
-        margin-left:250px;
-        margin-top: 20px;
+        margin-top:-180px;
+        width: 80px;
+        margin-left: 30px;
+        
       }
       .vidicon{
-        width:100px;
-        margin-left:150px;
-        margin-top: 20px;
+        margin-top:-180px;
+        width: 80px;
+        margin-left: 30px;
+        
       }
       .radioicon{
-        width:100px;
-        margin-left:150px;
-        margin-top: 20px;
+        margin-top:-180px;
+        width: 80px;
+        margin-left: 30px;
+       
+      }
+      .moreicon{
+        margin-top:-180px;
+        width: 80px;
+        margin-left: 30px;
+      }
+
+      .icons{
+        margin-top: 120px;
       }
       .mainh{
           display: none;
       }
       .shtxtmb{
-        margin-top: 0px;
+        display: inline;
         color:#ffff;
         font-family: "Comic Sans MS", Comic Sans, cursive;
-        text-align: center;
-        font-size: 9px;
-    
+        margin-top:10px;
+        font-size: 32px;
+
+      
+
       }
+      .shtxtmbp{
+        margin-top:-200px;
+        margin-left: 100px;
+        
+      }
+      
       .mobilei{
         margin-right:3700px;
       }
 }
 
-@media (max-width: 376px) {
 
-    body{
-        margin:0px;
-        padding:0px;
-        background-color: #f2f2f2d7;
-    }
-    .href{
-        text-decoration: none;
-        outline: none;
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    }
-    .header{
-        font-family: "Comic Sans MS", Comic Sans, cursive;
-        font-size: 8px;
-        background-color: #ffff;
-        padding: 10px;
-        width: 360px;
-        
-    }
-    .logo{
-        width:25px;
-        height:25px;
-        margin-left: 2px;
-        margin-top: 2px;
-    }
-    .logotxt{
-        margin-left: -30px;
-        padding-top: 20px;
-        color:black;
-    }
-    header a{
-        display: inline-block;
-    }
-    .xyz{
-        margin-left: 57px;
-        margin-top: -70px;
-    }
-    .xyd{
-        display: inline-block;
-        color: #000000;
-        font-family: "Comic Sans MS", Comic Sans, cursive;
-        font-size: 24px;
-        
-    }
-    
-    .topnav {
-        overflow: hidden;
-        background: transparent;
-        
-        margin-top: -35px;
-        margin-right: 0px;
-        margin-left: 189px;
-      }
+@media (max-width: 460px) { 
+  body{
+      margin:0px;
+      padding:0px;
+      background-color: #f2f2f2d7;
+  }
+  .href{
+      text-decoration: none;
+      outline: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .header{
+      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-size: 8px;
+      background-color: #ffff;
+      padding: 10px;
+      width: 393px;
       
-      /* Navbar links */
-      .topnav a {
-        float: left;
-        display: block;
-        color: #000000;
-        font-family: "Comic Sans MS", Comic Sans, cursive;
-        font-size: 6px;
-        text-align: top;
-        padding-left: 10px;
-        padding-right: 5px;
-        padding-top: -20px;
-        text-decoration: none;
-        border-radius: 5px;
-      }
+  }
+  .logo{
+      width:25px;
+      height:25px;
+      margin-left: 2px;
+      margin-top: 2px;
+  }
+  .logotxt{
+      margin-left: -30px;
+      padding-top: 20px;
+      color:black;
+  }
+  header a{
+      display: inline-block;
+  }
+  .xyz{
+      margin-left: 57px;
+      margin-top: -70px;
+  }
+  .xyd{
+      display: inline-block;
+      color: #000000;
+      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-size: 24px;
       
-      /* Links - change color on hover */
-      .topnav a:hover {
-        background-color: #f2f2f2d7;
-        color: black;
-      }
-      .cl{
-        
-        margin-left: 1080px;
-        margin-top:-68px;
-        display: none;
-        
-      }
-      .vk{
-        width:50px;
-        height:50px;
-        margin-left:1290px;
-        margin-top: -110px;
-        margin-bottom: 20px;
-        display: none;
-      }
-      .shapka{
-        width: 340px;
-        height: 220px;
-        margin-left: 5px;
-        padding: 10px;
-        border-radius: 30px;
-      }
-      .shapkatxt{
-        display: none;
+  }
+  
+  .topnav {
+      overflow: hidden;
+      background: transparent;
+      
+      margin-top: -35px;
+      margin-right: 0px;
+      margin-left: 189px;
+    }
     
-      }
-      .newsicon{
-        width:100px;
-        margin-left:250px;
-        margin-top: 20px;
-      }
-      .vidicon{
-        width:100px;
-        margin-left:150px;
-        margin-top: 20px;
-      }
-      .radioicon{
-        width:100px;
-        margin-left:150px;
-        margin-top: 20px;
-      }
-      .mainh{
-          display: none;
-      }
-      .shtxtmb{
-        margin-top: 0px;
-        color:#ffff;
-        font-family: "Comic Sans MS", Comic Sans, cursive;
-        text-align: center;
-        font-size: 9px;
+    /* Navbar links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #000000;
+      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-size: 6px;
+      text-align: top;
+      padding-left: 10px;
+      padding-right: 5px;
+      padding-top: -20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
     
-      }
+    /* Links - change color on hover */
+    .topnav a:hover {
+      background-color: #f2f2f2d7;
+      color: black;
+    }
+    .cl{
+      
+      margin-left: 0px;
+      margin-top:-68px;
+      display: none;
+      
+    }
+    .vk{
+      width:50px;
+      height:50px;
+      display: none;
+      
+      
+    }
+    .shapka{
+      width: 393px;
+      height: 220px;
+      margin-left: 5px;
+      padding: 10px;
+      border-radius: 30px;
+      
+    }
+    .shapkatxt{
+      display: none;
+  
+    }
+    .newsicon{
+      margin-top:-180px;
+      width: 80px;
+      margin-left: 30px;
+      
+    }
+    .vidicon{
+      margin-top:-180px;
+      width: 80px;
+      margin-left: 30px;
+      
+    }
+    .radioicon{
+      margin-top:-180px;
+      width: 80px;
+      margin-left: 30px;
+     
+    }
+    .moreicon{
+      display:none;
+    }
 
+    .icons{
+      margin-top: 120px;
+      margin-left:30px;
+    }
+    .mainh{
+        display: none;
+    }
+    .shtxtmb{
+      display: inline;
+      color:#ffff;
+      font-family: "Comic Sans MS", Comic Sans, cursive;
+      margin-top:10px;
+      font-size: 24px;
+
+    
+
+    }
+    .shtxtmbp{
+      margin-top:-200px;
+      margin-left: 100px;
+      
+    }
+    
+    .mobilei{
+      margin-right:3700px;
+    }
 }
 
-
-
-
+@media (max-width: 370px) { 
+  body{
+      margin:0px;
+      padding:0px;
+      background-color: #f2f2f2d7;
+  }
+  .href{
+      text-decoration: none;
+      outline: none;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  .header{
+      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-size: 8px;
+      background-color: #ffff;
+      padding: 10px;
+      width: 345px;
+      
+  }
+  .logo{
+      width:25px;
+      height:25px;
+      margin-left: 2px;
+      margin-top: 2px;
+  }
+  .logotxt{
+      margin-left: -30px;
+      padding-top: 20px;
+      color:black;
+  }
+  header a{
+      display: inline-block;
+  }
+  .xyz{
+      margin-left: 57px;
+      margin-top: -70px;
+  }
+  .xyd{
+      display: inline-block;
+      color: #000000;
+      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-size: 24px;
+      
+  }
   
+  .topnav {
+      overflow: hidden;
+      background: transparent;
+      
+      margin-top: -35px;
+      margin-right: 0px;
+      margin-left: 189px;
+    }
+    
+    /* Navbar links */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #000000;
+      font-family: "Comic Sans MS", Comic Sans, cursive;
+      font-size: 5px;
+      text-align: top;
+      padding-left: 10px;
+      padding-right: 5px;
+      padding-top: -20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    
+    /* Links - change color on hover */
+    .topnav a:hover {
+      background-color: #f2f2f2d7;
+      color: black;
+    }
+    .cl{
+      
+      margin-left: 0px;
+      margin-top:-68px;
+      display: none;
+      
+    }
+    .vk{
+      width:50px;
+      height:50px;
+      display: none;
+      
+      
+    }
+    .shapka{
+      width: 345px;
+      height: 220px;
+      margin-left: 5px;
+      padding: 10px;
+      border-radius: 30px;
+      
+    }
+    .shapkatxt{
+      display: none;
+  
+    }
+    .newsicon{
+      margin-top:-180px;
+      width: 70px;
+      margin-left: 30px;
+      
+    }
+    .vidicon{
+      margin-top:-180px;
+      width: 70px;
+      margin-left: 30px;
+      
+    }
+    .radioicon{
+      margin-top:-180px;
+      width: 70px;
+      margin-left: 30px;
+     
+    }
+    .moreicon{
+      display:none;
+    }
+
+    .icons{
+      margin-top: 120px;
+      margin-left:30px;
+    }
+    .mainh{
+        display: none;
+    }
+    .shtxtmb{
+      display: inline;
+      color:#ffff;
+      font-family: "Comic Sans MS", Comic Sans, cursive;
+      margin-top:10px;
+      font-size: 24px;
+
+    
+
+    }
+    .shtxtmbp{
+      margin-top:-200px;
+      margin-left: 100px;
+      
+    }
+    
+    .mobilei{
+      margin-right:3700px;
+    }
+}
